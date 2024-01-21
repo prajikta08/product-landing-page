@@ -763,7 +763,7 @@ footer p a{
     
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 580px) {
   .hero{
     display: block;
     grid-template-rows: repeat(2,1fr);
@@ -822,7 +822,7 @@ footer p a{
   footer{
     width: 576px;
   }
-   section{
+  section{
     padding: 20px 60px;
   }
   .hero-box{
@@ -842,11 +842,66 @@ footer p a{
     
   }
   .hero3 .box2 p{
-    font-size: 9px;
-  }
-}
-  .hero3 .box2 p{
     font-size: 10px;
   }
- 
+}
+@media (max-width:430px) {
+  header{
+    padding: 20px;
+    width: 440px;
+    height: 80px;  
+  }
+  footer{
+    width: 400px;
+    padding: 10;
+   
+  }
+}
+@media (max-width:380px) {
+  header{
+    padding-left: 45px;
+  }
+  .hero-text a{
+    display: inline-block;
+    color: white;
+    background-color: orange;
+    border: 1px solid transparent;
+    padding: 5px 8px;
+    margin-top: 19px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    transition: all .55s ease;
+    margin-left: 30px;
+  }
+  img{
+    width: 200px;
+    margin-top: 90px;
+    border-radius: 20px;
+    margin-left: 30px;
+  }
+  .hero1 .hero-img1 div{
+    font-size: 16px;
+  }
+  .hero-box{
+    margin-left: 10px;
+  }
+  .hero-box div{
+    
+    border: 1px solid transparent;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+    box-shadow: 5px 5px 3px 5px rgba(7, 7, 7, 0.2);
+    margin-bottom: 20px;
+    margin-right: 90px;
+    cursor: pointer;
+    transition: all .55s ease;
+    
+  }
+  .hero3 .box2{
+    width: 310px;
+
+  }
 }
