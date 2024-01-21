@@ -749,10 +749,12 @@ footer p a{
     font-size: 14px;
     color: rgb(83, 80, 80);
   }
+  
   footer{
     width: 650px;
     padding-left: 50px;
   }
+  
   header{
     
     padding: 4px;
@@ -814,9 +816,14 @@ footer p a{
     transition: all .55s ease;
     margin-left: 50px;
   }
-  
+  header{
+    padding: 15px 3%;
+  }
   footer{
     width: 576px;
+  }
+   section{
+    padding: 20px 60px;
   }
   .hero-box{
     margin-left: 30px;
@@ -838,8 +845,8 @@ footer p a{
     font-size: 9px;
   }
 }
-  header{
-    width: 100%;
+  .hero3 .box2 p{
+    font-size: 10px;
   }
  
 }
